@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#base {
+    background-image: radial-gradient(ellipse, rgb(70, 70, 70), rgb(0, 0, 0));
+    border-radius: 1.7rem;
+    border: 10px rgb(78, 78, 78);
+    border-style: double;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 21rem;
+    height: 28rem;
+}
+
+main .cabeza {
+    margin-top: -20px;
+    margin-bottom: -25px;
+}
+
+main .cabeza .titulo {
+    color: rgb(112, 112, 112);
+    font-size: 40px;
+}
+
+main .imagen {
+    background-image: url("usuario.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+}
+
+main p {
+    color: red;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    width: 15rem;
+}
+
+main .usuario {
+    border: 3px solid rgb(75, 75, 75);
+    background-color: rgb(32, 32, 32);
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+    padding: 0.4rem;
+    width: 16rem;
+}
+
+main .usuario:hover {
+    box-shadow: 0 0 15px 0.5px rgb(75, 75, 75);
+}
+
+main .usuario #usuario-caja {
+    background-color: rgb(32, 32, 32);
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    outline: none;
+    width: 16rem;
+}
+
+main .contraseña {
+    border: 3px solid rgb(75, 75, 75);
+    background-color: rgb(32, 32, 32);
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 0.4rem;
+    width: 16rem;
+}
+
+main .contraseña:hover {
+    box-shadow: 0 0 15px 0.5px rgb(75, 75, 75);
+}
+
+main .contraseña #contraseña-caja {
+    background-color: rgb(32, 32, 32);
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    outline: none;
+    width: 16rem;
+}
+
+main #boton-boton {
+    background-color: rgb(172, 11, 11);
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    margin-top: 0.9rem;
+    padding: 0.6rem;
+    width: 5rem;
+}
+
+main #boton-boton:hover {
+    box-shadow: 0 0 12px 1px rgb(255, 28, 28);
+}
+
+main h4 {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
