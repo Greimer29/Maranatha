@@ -1,4 +1,13 @@
  body {
+     margin: 0;
+     padding: 0;
      background-image: url('99b2ed5e1acd015b519ba06f4384e42a[2].png');
      background-size: cover;
+ }
+ 
+ header {
+     width: 100%;
+     height: 60px;
+     background-color: aqua;
+     display: flex;
  }
